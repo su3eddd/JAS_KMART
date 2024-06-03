@@ -1,0 +1,48 @@
+CREATE TABLE product(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE snacks(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE drinks(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE ice_cream(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE meat(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE dishes(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE seasoned(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
